@@ -7,8 +7,8 @@ namespace Polimorfismo.Entidades
         public double Altura { get; set; }
         public Retangulo(double largura, double altura, Cores cores) : base(cores)
         {
-            Largura = largura;
-            Altura = altura;
+            this.Largura = largura;
+            this.Altura = altura;
         }
         public override double Area()
         {

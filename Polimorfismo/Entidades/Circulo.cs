@@ -8,7 +8,7 @@ namespace Polimorfismo.Entidades
 
         public Circulo(double raio, Cores cores) : base(cores)
         {
-            Raio = raio;
+            this.Raio = raio;
         }
         public override double Area()
         {
